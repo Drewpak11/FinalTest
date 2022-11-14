@@ -22,3 +22,5 @@ void PrintArray(string[] array)
 
 string[] array = {"Hi", "User", "2", "Name", "Homework"};
 string[] array1 = new string [array.Length];
+FillArray(array, array1);
+PrintArray(array1);
